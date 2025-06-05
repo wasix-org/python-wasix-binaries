@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     src-verify
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _SHA1Transform, symObjAddr: 0x0, symBinAddr: 0x1000009E8, symSize: 0x35E8 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _SHA1Transform, symObjAddr: 0x0, symBinAddr: 0x1000009E8, symSize: 0x35E8 }
+  - { offsetInCU: 0x54, offset: 0x54, size: 0x8, addend: 0x0, symName: _SHA1Transform.one, symObjAddr: 0x72A4, symBinAddr: 0x10000C000, symSize: 0x0 }
+  - { offsetInCU: 0xAB, offset: 0xAB, size: 0x8, addend: 0x0, symName: _SHA3Init, symObjAddr: 0x3714, symBinAddr: 0x1000040FC, symSize: 0xCC }
+  - { offsetInCU: 0xCE, offset: 0xCE, size: 0x8, addend: 0x0, symName: _SHA3Init.one, symObjAddr: 0x72A8, symBinAddr: 0x10000C004, symSize: 0x0 }
+  - { offsetInCU: 0xFD, offset: 0xFD, size: 0x8, addend: 0x0, symName: _KeccakF1600Step, symObjAddr: 0x4F50, symBinAddr: 0x100005938, symSize: 0x2354 }
+  - { offsetInCU: 0x120, offset: 0x120, size: 0x8, addend: 0x0, symName: _KeccakF1600Step.RC, symObjAddr: 0x73F0, symBinAddr: 0x100007E90, symSize: 0x0 }
+  - { offsetInCU: 0x256, offset: 0x256, size: 0x8, addend: 0x0, symName: _DigestToBase16, symObjAddr: 0x38B0, symBinAddr: 0x100004298, symSize: 0xB0 }
+  - { offsetInCU: 0x279, offset: 0x279, size: 0x8, addend: 0x0, symName: _DigestToBase16.zEncode, symObjAddr: 0x74B0, symBinAddr: 0x100007F50, symSize: 0x0 }
+  - { offsetInCU: 0x2E6, offset: 0x2E6, size: 0x8, addend: 0x0, symName: _sha3sum_file, symObjAddr: 0x35E8, symBinAddr: 0x100003FD0, symSize: 0x12C }
+  - { offsetInCU: 0x366, offset: 0x366, size: 0x8, addend: 0x0, symName: _SHA3Update, symObjAddr: 0x37E0, symBinAddr: 0x1000041C8, symSize: 0xD0 }
+  - { offsetInCU: 0x3B9, offset: 0x3B9, size: 0x8, addend: 0x0, symName: _SHA3Final, symObjAddr: 0x3960, symBinAddr: 0x100004348, symSize: 0x130 }
+  - { offsetInCU: 0x43B, offset: 0x43B, size: 0x8, addend: 0x0, symName: _sha1sum_file, symObjAddr: 0x3A90, symBinAddr: 0x100004478, symSize: 0x128 }
+  - { offsetInCU: 0x4CB, offset: 0x4CB, size: 0x8, addend: 0x0, symName: _SHA1Init, symObjAddr: 0x3BB8, symBinAddr: 0x1000045A0, symSize: 0x70 }
+  - { offsetInCU: 0x4EF, offset: 0x4EF, size: 0x8, addend: 0x0, symName: _SHA1Update, symObjAddr: 0x3C28, symBinAddr: 0x100004610, symSize: 0x170 }
+  - { offsetInCU: 0x54B, offset: 0x54B, size: 0x8, addend: 0x0, symName: _SHA1Final, symObjAddr: 0x3D98, symBinAddr: 0x100004780, symSize: 0x1B0 }
+  - { offsetInCU: 0x599, offset: 0x599, size: 0x8, addend: 0x0, symName: _defossilize, symObjAddr: 0x3F48, symBinAddr: 0x100004930, symSize: 0x1D4 }
+  - { offsetInCU: 0x5FB, offset: 0x5FB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4238, symBinAddr: 0x100004C20, symSize: 0xC18 }
+  - { offsetInCU: 0x755, offset: 0x755, size: 0x8, addend: 0x0, symName: _errorMsg, symObjAddr: 0x4E50, symBinAddr: 0x100005838, symSize: 0x80 }
+  - { offsetInCU: 0x799, offset: 0x799, size: 0x8, addend: 0x0, symName: _errorMsgNH, symObjAddr: 0x4ED0, symBinAddr: 0x1000058B8, symSize: 0x80 }
+...

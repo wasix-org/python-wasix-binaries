@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     mkkeywordhash
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000C2C, symSize: 0x19CC }
+  - { offsetInCU: 0x5F, offset: 0x5F, size: 0x8, addend: 0x0, symName: _nKeyword, symObjAddr: 0x1DE8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x7B, size: 0x8, addend: 0x0, symName: _aKeywordTable, symObjAddr: 0x1DF0, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x15D, offset: 0x15D, size: 0x8, addend: 0x0, symName: _zHdr, symObjAddr: 0x5EC5, symBinAddr: 0x100003D61, symSize: 0x0 }
+  - { offsetInCU: 0x178, offset: 0x178, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000C2C, symSize: 0x19CC }
+  - { offsetInCU: 0x38F, offset: 0x38F, size: 0x8, addend: 0x0, symName: _keywordCompare1, symObjAddr: 0x19CC, symBinAddr: 0x1000025F8, symSize: 0xC0 }
+  - { offsetInCU: 0x3F5, offset: 0x3F5, size: 0x8, addend: 0x0, symName: _keywordCompare2, symObjAddr: 0x1A8C, symBinAddr: 0x1000026B8, symSize: 0xC0 }
+  - { offsetInCU: 0x45B, offset: 0x45B, size: 0x8, addend: 0x0, symName: _findById, symObjAddr: 0x1B4C, symBinAddr: 0x100002778, symSize: 0x94 }
+  - { offsetInCU: 0x494, offset: 0x494, size: 0x8, addend: 0x0, symName: _keywordCompare3, symObjAddr: 0x1BE0, symBinAddr: 0x10000280C, symSize: 0xC0 }
+  - { offsetInCU: 0x4FA, offset: 0x4FA, size: 0x8, addend: 0x0, symName: _reorder, symObjAddr: 0x1CA0, symBinAddr: 0x1000028CC, symSize: 0x144 }
+...
